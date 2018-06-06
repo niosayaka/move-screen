@@ -12,6 +12,8 @@
 		5D586E2C20B4302500F4CC07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D586E2A20B4302500F4CC07 /* Main.storyboard */; };
 		5D586E2E20B4302600F4CC07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D586E2D20B4302600F4CC07 /* Assets.xcassets */; };
 		5D586E3120B4302600F4CC07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D586E2F20B4302600F4CC07 /* LaunchScreen.storyboard */; };
+		5D586E3920B4304F00F4CC07 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D586E3820B4304F00F4CC07 /* FirstViewController.swift */; };
+		5D586E3D20B4351300F4CC07 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D586E3C20B4351300F4CC07 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		5D586E2D20B4302600F4CC07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D586E3020B4302600F4CC07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D586E3220B4302600F4CC07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D586E3820B4304F00F4CC07 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		5D586E3C20B4351300F4CC07 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 		5D586E1A20B4302500F4CC07 = {
 			isa = PBXGroup;
 			children = (
+				5D586E3C20B4351300F4CC07 /* SecondViewController.swift */,
+				5D586E3820B4304F00F4CC07 /* FirstViewController.swift */,
 				5D586E2520B4302500F4CC07 /* 画面遷移と値渡し */,
 				5D586E2420B4302500F4CC07 /* Products */,
 			);
@@ -136,6 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D586E3D20B4351300F4CC07 /* SecondViewController.swift in Sources */,
+				5D586E3920B4304F00F4CC07 /* FirstViewController.swift in Sources */,
 				5D586E2920B4302500F4CC07 /* ViewController.swift in Sources */,
 				5D586E2720B4302500F4CC07 /* AppDelegate.swift in Sources */,
 			);
